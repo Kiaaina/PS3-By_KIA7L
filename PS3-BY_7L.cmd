@@ -1,7 +1,7 @@
 cd /
 :top
 cls
-mode 40,25
+mode 10,25
 title "PS3-BY_KA7L"
 @echo off 
          @123456789012
