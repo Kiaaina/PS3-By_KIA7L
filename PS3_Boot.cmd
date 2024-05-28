@@ -13,14 +13,14 @@ if (%m%=2) goto two
 goto top
 
 :one
-@set "folder1=./Windows.iso/"
+@set "folder1=.\Windows.iso\"
 set /p iso1=name.windows.iso;
 set /p rom1=name.windows.rom;
 copy "%folder1%%iso1% ./%rom1%"
 goto 7L
 
 :two
-@set "folder2=./PS3.iso/"
+@set "folder2=.\PS3.iso\"
 set /p iso2=name.game.iso;
 set /p rom2=name.game.rom;
 copy "%folder2%%iso2% ./%rom2%"
