@@ -1,7 +1,7 @@
 cd /
 :top
 cls
-mode 40,25
+mode 20,30
 title "PS3 Boot"
 @echo off 
 @set "cecho.\cecho.exe"
