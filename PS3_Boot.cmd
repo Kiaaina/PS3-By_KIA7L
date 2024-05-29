@@ -14,14 +14,14 @@ goto top
 
 :one
 @set "folder1=.\Windows.iso\"
-set /p iso1=name.windows.iso;
+set /p iso1=name.windows.iso;............edit................
 set /p rom1=name.windows.rom;
 copy "%folder1%%iso1%" "./%rom1%"
 goto 7L
 
 :two
 @set "folder2=.\PS3.iso\"
-set /p iso2=name.game.iso;
+set /p iso2=name.game.iso;..............edit.................
 set /p rom2=name.game.rom;
 copy "%folder2%%iso2%" "./%rom2%"
 goto 7L
