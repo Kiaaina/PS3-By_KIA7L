@@ -8,8 +8,8 @@ title "PS3 Boot"
 %cecho% {04}1=Windows{\n}2=PS3{03}{\n}
 %cecho% {07} Install.usb on PS3
 set /p m=choose one;
-if (%m%=1) goto one
-if (%m%=2) goto two
+if %m%==1 goto one
+if %m%==2 goto two
 goto top
 
 :one
