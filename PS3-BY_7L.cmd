@@ -12,9 +12,9 @@ title "PS3-BY_KA7L"
 %cecho% {04}1=PS3.apk{\n}2=PS3.app{\n}3=PS3.exe{07}{\n}
 
 set /p m=Choose;
-if (%m%=1) goto one
-if (%m%=2) goto two
-if (%m%=3) goto three
+if %m%==1 goto one
+if %m%==2 goto two
+if %m%==3 goto three
 goto top
 
 :one
